@@ -1,0 +1,59 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form_add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  flex-flow: column;
+  width: 30%;
+  margin-right: 10px;
+}
+input {
+  margin-top: 5px;
+  height: 20px;
+  padding: 2px;
+  outline: none;
+}
+.btn_add {
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid black;
+}
+.list {
+  display: block;
+  width: 100%;
+  justify-content: space-around;
+}
+.list span {
+  margin-left: 60px;
+  margin-right: 10px;
+}
+.track_list {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn_delete {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
